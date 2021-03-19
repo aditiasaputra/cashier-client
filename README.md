@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+<p align="center">
+    <h1>Laravel-Reactjs Cashier App</h1>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="./public/img/list-transaction-page.png?raw=true" width="600"></p>
 
-## Available Scripts
+----------
 
-In the project directory, you can run:
+## Tentang Laravel-Reactjs Cashier App
 
-### `yarn start`
+Laravel-Reactjs Cashier App adalah sebuah aplikasi untuk mempermudah pencatatan suatu transaksi. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Saat ini, Aplikasi ini memiliki 1 hak akses saja untuk Kasir.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Beberapa fungsi di laravel yang di gunakan untuk membuat aplikasi ini.
 
-### `yarn test`
+## Basic
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Routing
+- Middleware
+- Controllers
+- Requests
+- Validation
 
-### `yarn build`
+## Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Reactjs
+https://reactjs.org/
+- Bootstrap
+https://getbootstrap.com/
+- SB Admin 2
+https://startbootstrap.com/theme/sb-admin-2
+- React Bootstrap
+https://react-bootstrap.github.io/
+- Axios
+https://github.com/axios/axios
+- React Hook Form
+https://react-hook-form.com/
+- React Table
+https://react-table.tanstack.com/
+- React Redux Toolkit (RTK)
+https://redux-toolkit.js.org/
+- more
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Security
 
-### `yarn eject`
+- Authentication
+https://laravel.com/docs/8.x/authentication
+- Json Web Token
+https://jwt-auth.readthedocs.io/en/develop/
+- Hashing
+https://laravel.com/docs/8.x/hashing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Databases
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Query Builder
+https://laravel.com/docs/8.x/queries
+- Migrations
+https://laravel.com/docs/8.x/migrations
+- Seeder
+https://laravel.com/docs/8.x/seeding
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Eloquent ORM
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Relationships
+https://laravel.com/docs/8.x/eloquent
 
-## Learn More
+## Package Pendukung
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Sweet Alert 2
+https://sweetalert2.github.io
+- React Hot Toast
+https://react-hot-toast.com/
+- React Spinners
+https://www.davidhu.io/react-spinners/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Cara Install Project E-Pembayaran SPP via GIT
 
-### Code Splitting
+  - `git clone https://github.com/aditiasaputra/cashier-client.git`
+  - `yarn install`
+  - `yarn start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Catatan :
+lakukan terlebih dahulu pembuatan database dengan nama `cashier` sebelum melakukan migrate.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Akun Untuk Login
 
-### Making a Progressive Web App
+Kasir 1
+- email        : cashierabc@mail.com
+-  password : abc123
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Kasir 2
+- email       : cashierdef@mail.com
+- password : def123
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Gambar
 
-### Deployment
+<p align="center">
+ <span><img src="./public/img/user-page.png?raw=true?raw=true" width="300"></span>
+ <span><img src="./public/img/product-page.png?raw=true" width="300"></span>
+ <span><img src="./public/img/category-page.png?raw=true" width="300"></span>
+ <span><img src="./public/img/gift-page.png?raw=true" width="300"></span>
+ <span><img src="./public/img/list-claim-gift-page.png?raw=true" width="300"></span>
+ <span><img src="./public/img/list-transaction-page.png?raw=true" width="300"></span>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Jika mengalami kesulitan, jangan sungkan untuk bertanya.
 
-### `yarn build` fails to minify
+Semoga bermanfaat, dan dapat menambah wawasan kalian.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Terima kasih.
